@@ -1,0 +1,10 @@
+#buttons,
+#accordion,
+#tabs {
+  width: 50%;
+  margin: 2em 0;
+}
+
+#accordion h3 {
+  padding-left: 2em;
+}

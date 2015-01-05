@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Google Analytics Custom Events</title>
+  <link rel="canonical" href="http://ga.dev">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.8.7/themes/smoothness/jquery-ui.css">
+  <link rel="stylesheet" href="/style.css">
+  <script src="//code.jquery.com/jquery-1.4.4.js"></script>
+  <script src="//code.jquery.com/ui/1.8.7/jquery-ui.js"></script>
+  <script src="/events.js"></script>
+</head>
+<body>
+  <h1>Google Analytics Custom Events</h1>
+  
+  <div id="buttons">
+    <button>Trigger Event</button>
+  </div>
+  
+  <div id="accordion">
+    <h3>Accordion 1</h3>
+    <div>
+      <p>
+      Cottage cheese everyone loves cheddar. Blue castello red leicester say cheese monterey jack roquefort edam airedale everyone loves. Smelly cheese squirty cheese cheesy feet cheese slices macaroni cheese taleggio pecorino bocconcini. Lancashire.
+      </p>
+    </div>
+    <h3>Accordion 2</h3>
+    <div>
+      <p>
+      Camembert de normandie cheese on toast bavarian bergkase. Pecorino fromage monterey jack say cheese gouda parmesan cheese and wine macaroni cheese. Goat lancashire cream cheese danish fontina cream cheese melted cheese goat cheese strings. When the cheese comes out everybody's happy babybel when the cheese comes out everybody's happy cheese on toast squirty cheese cheese slices smelly cheese who moved my cheese. Cheesy grin who moved my cheese.
+      </p>
+    </div>
+    <h3>Accordion 3</h3>
+    <div>
+      <p>
+      Paneer stilton cheese on toast. Emmental red leicester cheese strings blue castello goat fromage who moved my cheese paneer. Dolcelatte jarlsberg airedale stinking bishop jarlsberg everyone loves emmental croque monsieur. Cheeseburger goat fromage cheese triangles fondue edam feta squirty cheese. Bavarian bergkase emmental cheesy grin.
+      </p>
+    </div>
+    <h3>Accordion 4</h3>
+    <div>
+      <p>
+      Mascarpone cheese and wine goat. Chalk and cheese smelly cheese danish fontina cheese on toast mascarpone camembert de normandie jarlsberg chalk and cheese. Cauliflower cheese cream cheese cheese and biscuits stilton fromage when the cheese comes out everybody's happy cheese strings cheesecake. Pecorino pepper jack squirty cheese port-salut swiss lancashire swiss hard cheese. Bocconcini.
+      </p>
+    </div>
+  </div>
+  
+  <div id="tabs">
+    <ul>
+      <li><a href="#tabs-1">Tab 1</a></li>
+      <li><a href="#tabs-2">Tab 2</a></li>
+      <li><a href="#tabs-3">Tab 3</a></li>
+    </ul>
+    <div id="tabs-1">
+      <p>Cheese strings squirty cheese squirty cheese. Edam cheeseburger paneer parmesan cheesy grin mozzarella fondue parmesan. Cheesy feet pepper jack feta ricotta pecorino cut the cheese taleggio mozzarella. Mozzarella feta gouda halloumi the big cheese cottage cheese say cheese.</p>
+    </div>
+    <div id="tabs-2">
+      <p>Ricotta cow emmental. Blue castello cream cheese paneer gouda bocconcini cheese and wine cut the cheese parmesan. Edam goat cheesy grin feta goat bocconcini roquefort cheesecake. Fondue rubber cheese red leicester emmental swiss airedale fondue.</p>
+    </div>
+    <div id="tabs-3">
+      <p>Mascarpone emmental cheese strings. Cheese and wine pepper jack blue castello squirty cheese dolcelatte taleggio mozzarella camembert de normandie. Rubber cheese parmesan feta monterey jack paneer port-salut hard cheese squirty cheese. Cheeseburger cheesecake.</p>
+    </div>
+  </div>
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-12345678-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+</body>
+</html>
